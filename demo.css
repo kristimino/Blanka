@@ -1,0 +1,78 @@
+.parent-class{
+    width:100px;
+    height: 250pxpx;
+    background - color: aqua;
+    
+ /* center elemtn using display flex*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.child-class{
+    width: 200px;
+    height: 200pxpx;
+    background - color: blue;
+    margin-right: 20px;
+}
+
+
+/* all even children */
+.child-class:nth-child(even){
+    width: 200px;
+    height: 200pxpx;
+    background - color: blue;
+    margin-right: 20px;
+}
+/* all odd children */
+.child-class:nth-child(odd){
+    width: 200px;
+    height: 200pxpx;
+    background - color: blue;
+    margin-right: 20px;
+}
+
+
+.background{
+    height: 500px;
+    background-color: red;
+}
+
+.backgroud-1{
+     height: 300;
+    background-color: blue;
+    padding: 100px 0px;
+ /* center content horizontally */
+    width: 80%;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+/* center elemtn using translate */
+
+.second-parent-class{
+    width: 100px;
+    height: 28vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+}
+
+/* flex behaviour */
+.some-class{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.boostrap-father-class{
+    background-color: red;
+    
+}
